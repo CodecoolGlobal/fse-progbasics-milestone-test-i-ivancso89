@@ -27,7 +27,7 @@ function filterDivisible(numbers, divisor) {
     return filtered
 
 }
-console.log(filterDivisible(numbers, divisor));
+
 
 
 module.exports = filterDivisible;

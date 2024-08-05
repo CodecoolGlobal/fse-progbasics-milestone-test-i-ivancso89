@@ -32,7 +32,7 @@ for(const age of filtered){
 return count/filtered.length
 }
 
-console.log(averageAgeOfAdults(users))
+
 
 
 module.exports = averageAgeOfAdults;

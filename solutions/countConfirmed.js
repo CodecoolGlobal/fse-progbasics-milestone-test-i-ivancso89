@@ -28,6 +28,6 @@ function countConfirmed(users) {
   return count
 
 }
-console.log(countConfirmed(users));
+
 
 module.exports = countConfirmed;
