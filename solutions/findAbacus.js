@@ -12,6 +12,14 @@ The wrong object may contain the key abacus but with false value! There may only
 */
 
 function findAbacus(array) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].hasOwnProperty("abacus ") && array[i].abacus=== true) {
+            return i
+        }
+
+    }
+    return null
+
 
 }
 
